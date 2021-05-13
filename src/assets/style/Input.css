@@ -1,0 +1,24 @@
+.input-container {
+    width: 100%;
+    background-color: #2f323a;
+    padding-bottom: 3%;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+input {
+    width: 30%;
+    background-color: #5a5356;
+    padding: 0.5%;
+    border: 1px solid #5a5356;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+p {
+    color: #88f0ac;
+}
+
+

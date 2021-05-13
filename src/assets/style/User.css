@@ -1,0 +1,142 @@
+.user-container {
+    color: white;
+    background-color: #5a5356;
+    margin-top: 5%;
+    padding-top: 3%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-bottom: 5%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.user-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 4%;
+    background-color: #3a3738;
+    padding: 3%;
+}
+
+img {
+    width: 20%;
+    height: 400px;
+    padding: 2%;
+}
+
+.user-list-container .user-info {
+    width: 25%;
+}
+
+.user-list-container .user-repositories {
+    width: 55%;
+}
+
+.repository-text-buton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.repository-text-buton button {
+    background-color: inherit;
+    border: inherit;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    color: #88f0ac;
+}
+
+.repository-text-buton button:hover {
+    background-color: inherit;
+    border: inherit;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    color: lightgray;
+}
+
+.user-header {
+    text-transform: uppercase;
+    font-size: 25px;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: whitesmoke;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 25px;
+    color: #88f0ac;
+}
+
+.user-info a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.user-info a:hover {
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+}
+
+.user-email {
+    color: whitesmoke;
+}
+
+.repository-list {
+    background-color: #5a5356;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 2%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;}
+
+.rep-name {
+    font-size: 19px;
+    font-weight: bold;
+    color: #88f0ac;
+}
+
+.rep-url {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.rep-url:hover {
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+}
+
+.rep-desc {
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+@media only screen and (max-width: 1400px) {
+    .user-list-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #3a3738;
+    }
+
+    img {
+        width: 20%;
+        height: 400px;
+        padding: 2%;
+        text-align: center;
+    }
+
+    .user-info {
+        width: 100%;
+    }
+
+    .user-repositories {
+        width: 100%;
+    }
+}
