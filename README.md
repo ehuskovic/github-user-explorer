@@ -25,3 +25,4 @@ I am very sorry and aware that I had to do the task with Typescript. However, my
 
 #ARCHITECTURE
 regarding architecture of the project. I  should have done the logic part of the code in App.js component instead of Test.js component. And of course I should have rename Test.js component to some another name for example User.js so it is more descriptional for its functionality. 
+Also, I should take more time and do entirely responsive web application, but I did not focus on styling that much. I focused more on functionalities.
