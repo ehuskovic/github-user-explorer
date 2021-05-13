@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+#START PROJECT
+- clone or download the file 
+- open terminal in folder
+- npm install
+- npm start
+- you are good to go
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#ABOUT
+- this is the project that enables the user to search for any github user. When you search for the desired user you will get some information. There will be image of the user, name, email and link to the github profile. Also, repositories will be listed. There is buuton that enables you to sort the repository ascending or descending way. 
 
-## Available Scripts
+#TECHNOLOGIES 
+I fetched the data using GraphQL and Apollo Client. The code is written in ReactJS (unfortunatelly not Typescript)
 
-In the project directory, you can run:
+#FIRST TASK 
+First task was to fetch the data. I used GraphQL because it was a requirement. For the client I have chosen Apollo client. The reason for that was that I got an impressionaon it is easy to work with it. That was the first time I used GraphQL and Apollo client. It is very easy and I liked it. 
+I got the information about the user and repositories.
 
-### `yarn start`
+#SECOND TASK
+Second task was to sort repositories. First, I went with approach that I will fect the data, sort them with some method and change the state and then show the sorted data. Then, I realized that I can go with easier approach. I will fetch the sorted data and I did it. It was much easier. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#THIRD TASK
+caching data is done with Apollo client in index.js on line 27. I used all advantages of using the Apollo client that is why I decided go on this way. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+I am very sorry and aware that I had to do the task with Typescript. However, my typescript code was not as good as this one and the app was not entirely functional that is why I publieshed solutioin with JS. 
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#ARCHITECTURE
+regarding architecture of the project. I  should have done the logic part of the code in App.js component instead of Test.js component. And of course I should have rename Test.js component to some another name for example User.js so it is more descriptional for its functionality. 
